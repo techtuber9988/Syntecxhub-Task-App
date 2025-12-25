@@ -1,16 +1,65 @@
-# React + Vite
+# 📝 React Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern **Notes Application** built using **React + Vite**.  
+Users can create, edit, and delete notes with data persistence using **localStorage**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new notes  
+- ✏️ Edit existing notes  
+- 🗑️ Delete notes  
+- 💾 Data persistence using **localStorage**  
+- 🌙 Dark theme with smooth animations  
+- 📱 Fully responsive (desktop, tablet, mobile)  
+- ⚡ Fast development using **Vite**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React (Hooks)** – useState, useEffect, useRef  
+- **Vite** – fast build tool  
+- **CSS3** – dark UI, animations, responsive layout  
+- **localStorage** – client-side data persistence  
+
+---
+
+## 📂 Project Structure
+
+```
+react-notes-app/
+├── public/
+├── src/
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.css
+│ └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+---
+## 📸 Screenshots
+
+Dark themed UI with smooth animations and responsive layout.
+<img width="1309" height="635" alt="Screenshot 2025-12-25 201913" src="https://github.com/user-attachments/assets/8e318386-6020-4f87-9ae4-30f44f64dc7f" />
+<img width="1306" height="637" alt="Screenshot 2025-12-25 201932" src="https://github.com/user-attachments/assets/679d8bab-fd7e-4cca-b393-d6dd9acd98cb" />
+
+---
+
+## 🔮 Future Enhancements
+
+ - Search notes
+
+ - Categories / tags
+
+ - Cloud storage integration
+
+ - Authentication
+---
+## 👤 Author
+
+Ayush Tripathi
